@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, section, footer {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+a {
+    color:black;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 250px;
+    margin: 10px 0;
+}
+
+
+nav {
+    background-color: #690707;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav a{
+    padding: 10px
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabela th {
+    background-color: #f2f2f2;
+}
+
+.tabela tbody tr:hover {
+    background-color: #e0e0e0;
+}
+section h5{
+    font-size: 16px;
+}
+section h6{
+    color: yellow;
+    font-size: 16px;
+}
+section a{
+    color: rgb(13, 4, 122);
+}

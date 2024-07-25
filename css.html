@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é CSS</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <nav>
+            <a href="index.html">INICÍO</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+    </nav>
+    <header>
+        <h1>Introdução ao CSS</h1>
+        <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.</p>
+    </header>
+    
+    <section>
+        <h1>Conceitos Básicos</h1>
+        
+        <h2>Seletores</h2>
+        <p>Os seletores permitem aplicar estilos a elementos específicos do HTML. Os seletores em CSS são padrões que definem quais elementos HTML serão estilizados.</p>
+            <h2>Seletores de Tag</h2> Estiliza todos os elementos de um determinado tipo.</p>
+        <p>Exemplo prático:</p>
+            <img src="img/img1.png" alt="Exemplo de Imagem">
+        
+           <p>Neste exemplo, todos os parágrafos (< p >) terão a cor azul e tamanho de fonte de 16 pixels.</p>
+        <h2>Classes</h2>
+        <p> Classes: São atributos que podem ser atribuídos a múltiplos elementos HTML para aplicar estilos comuns a eles. Uma classe é definida no HTML com o atributo class e no CSS com um ponto (.) seguido do nome da classe.</p>
+        <p>Exemplo prático:</p>
+        <img src="img/img2.png" alt="Exemplo de Imagem">
+            <p>Neste caso, todos os elementos com a classe destaque terão fundo amarelo e um preenchimento de 10 pixels.</p>
+            <h3>IDs</h3>
+            <p>São atributos que identificam exclusivamente um único elemento HTML em um documento. Um ID é definido no HTML com o atributo id e no CSS com um hash (#) seguido do nome do ID.</p>
+        <p>Exemplo prático:</p>
+
+        <img src="img/img3.png" alt="Exemplo de Imagem">
+        <p>Aqui, o elemento com o ID cabecalho terá um tamanho de fonte de 24 pixels e será em negrito.</p>
+
+        <h2>Propriedades e Valores</h2>
+        <p>Em CSS, as propriedades definem como um elemento HTML deve ser apresentado visualmente, e os valores especificam como essas propriedades devem ser aplicadas. Por exemplo:
+
+<h2>Propriedade: color</h2>
+<p>Exemplo prático:</p>
+Valor: blue, #FF0000, rgb(255, 0, 0)
+<h6>Define a cor do texto.</h6>
+
+<h2>Propriedade: font-size</h2>
+<p>Exemplo prático:</p>
+
+<p>Valor: 16px, 1.2em, medium</p>
+<p>Define o tamanho da fonte.</p>
+
+<h2>Propriedade: background-color</h2>
+<p>Exemplo prático:</p>
+<p>Valor: yellow, #FFFF00, rgba(255, 255, 0, 0.5)</p>
+Define a cor de fundo de um elemento.
+         
+        <h2>Cascata e Especificidade</h2>
+        <p>Em CSS, a cascata e a especificidade são dois conceitos fundamentais que determinam como os estilos são aplicados aos elementos HTML quando múltiplas regras de estilo conflitam.
+
+            <h2><b>Cascata</b></h2>
+            <p> A cascata em CSS refere-se à ordem em que as regras de estilo são aplicadas aos elementos. Ela segue uma hierarquia que determina qual regra prevalece quando várias regras se aplicam ao mesmo elemento.</p>
+
+            <h2><b>Especificidade</b></h2>
+A especificidade é um valor numérico que representa a importância relativa de uma regra de estilo em relação a outras regras. É calculada com base nos seletores utilizados para definir a regra.
+    </section> 
+</body>
+</html>
